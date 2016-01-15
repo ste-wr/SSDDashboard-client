@@ -1,0 +1,46 @@
+@media all and (min-width: 800px) {
+    .info-module {
+        width: 300px;
+        color: @color-white;
+        margin: 20px;
+        &.small {
+            height: 100px;
+        }
+
+        &.medium {
+            height: 200px;
+        }
+
+        &.large {
+            height: 300px;
+        }
+
+        &.macro {
+            background-color: @color-ibm-blue80;
+        }
+
+        &.customers {
+            background-color: @color-ibm-blue70;
+        }
+
+        &.dates {
+            background-color: @color-ibm-blue60;
+        }
+
+        &.infrastructure {
+            background-color: @color-ibm-blue50;
+        }
+
+        &.informational {
+            background-color: @color-ibm-blue40;
+        }
+
+        >.title {
+            line-height: 24px;
+            font-size: 14px;
+            padding-left: 10px;
+            font-weight: 700;
+            border-bottom: 1px solid @color-white-border;
+        }
+    }
+}
